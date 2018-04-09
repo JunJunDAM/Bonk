@@ -47,7 +47,7 @@ public class GameEngine {
         scene.loadFromFile(R.raw.scene2);
 
         // Create Bonk
-        bonk = new Bonk(this, 100,0);
+        bonk = new Bonk(this, 0,0);
 
         // Program the Handler for engine refresh (physics et al)
         handler = new Handler();
