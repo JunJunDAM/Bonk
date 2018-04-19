@@ -113,6 +113,7 @@ public class GameEngine {
         }
         else {
             if (down) input.pause();                    // DEAD-ZONE
+            stop();
         }
         return true;
     }
